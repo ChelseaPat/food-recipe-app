@@ -21,10 +21,10 @@ export default function Navbar() {
                 />
             </form>
             <ul className="flex gap-5">
-                <li>
+                <li key="home">
                     <NavLink to={'/'} className="text-black hover:text-gray-700 duration-300">Home</NavLink>
                 </li>
-                <li>
+                <li key="fav">
                     <NavLink to={'/favourites'} className="text-black hover:text-gray-700 duration-300">Favourites</NavLink>
                 </li>
             </ul>
